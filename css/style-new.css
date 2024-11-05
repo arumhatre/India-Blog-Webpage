@@ -161,20 +161,18 @@ html { font-family: 'Work Sans', sans-serif; }
 .Blog-webpage .screenshot_slider .owl-prev{left:-12px}
 .Blog-webpage .screenshot_slider .owl-next{right:-12px}
 
-
 /*==========================================*/
 /* Grey Slider css*/
 /*==========================================*/
+.Blog-webpage.grey_box_section{margin-top:20px}
 .Blog-webpage .greycontent_slider .owl-dots{display:none}
 .Blog-webpage .greycontent_slider .owl-item img{width:100%}
 .Blog-webpage .greycontent_slider .owl-next,.Blog-webpage .greycontent_slider .owl-prev{position:absolute;top:-5px;height:100%}
 .Blog-webpage .greycontent_slider .owl-prev{left:-12px}
 .Blog-webpage .greycontent_slider .owl-next{right:-12px}
-.Blog-webpage .grey_box_section{margin-top:20px}
 .Blog-webpage .greycontent_box{height:280px;padding:20px;background-color:#f7f7f7;border-radius:16px;border-bottom:12px solid #eae8e8}
 .Blog-webpage .greycontent_box h6{text-align:center;font-size:21px;color:#2a81bb;font-weight:600}
 .Blog-webpage .greycontent_box hr{border:1px solid #dadada}
-
 
 /*==========================================*/
 /* Google rating css*/
@@ -269,7 +267,6 @@ html { font-family: 'Work Sans', sans-serif; }
 /* Refrence section css*/
 /*==========================================*/
 .Blog-webpage .refrence_list{list-style:decimal;margin-bottom:0;padding-inline-start:20px}
-
 
 /*==========================================*/
 /* treadingblogs_slider section css*/
