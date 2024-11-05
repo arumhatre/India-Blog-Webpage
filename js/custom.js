@@ -14,7 +14,7 @@ $('input,textarea').val("");
 
 $(document).ready(function() {
     // Initialize carousel for screenshots and Google rating
-    $(".screenshot_slider, #googlerating_slider").owlCarousel({
+    $(".Blog-webpage .screenshot_slider, .Blog-webpage #googlerating_slider").owlCarousel({
       loop: true,
       responsiveClass: true,
       nav: true,
@@ -38,7 +38,7 @@ $(document).ready(function() {
     $(".owl-nav .owl-next").attr("role", "button");
 
     // Initialize carousel for testimonials
-    $("#testimonilas_slider").owlCarousel({
+    $(".Blog-webpage #testimonilas_slider").owlCarousel({
       loop: true,
       responsiveClass: true,
       nav: true,
@@ -62,7 +62,7 @@ $(document).ready(function() {
 
 
     // Initialize carousel for testimonials
-    $(".greycontent_slider").owlCarousel({
+    $(".Blog-webpage .greycontent_slider").owlCarousel({
       loop: true,
       responsiveClass: true,
       nav: true,
@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 
     // Initialize carousel for testimonials
-    $(".treadingblogs_slider").owlCarousel({
+    $(".Blog-webpage .treadingblogs_slider").owlCarousel({
       loop: !0,
       responsiveClass: !0,
       nav: !0,
