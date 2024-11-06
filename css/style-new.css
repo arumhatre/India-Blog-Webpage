@@ -182,7 +182,6 @@ html { font-family: 'Work Sans', sans-serif; }
 .Blog-webpage .google-rating-small-title{font-weight:600;font-size:12px;color:#636363}
 @media screen and (max-width:600px){
 .Blog-webpage .google-rating-box{height:275px;margin:0 0;padding:20px 8px 0;background-color:#fff;box-shadow:0 2px 8px rgb(194 194 194 / 30%)}
-
 }
 
 /*==========================================*/
@@ -232,6 +231,7 @@ html { font-family: 'Work Sans', sans-serif; }
 /*==========================================*/
 /* FAQ css*/
 /*==========================================*/
+
 .Blog-webpage .faq-box-cls{padding-bottom:20px;margin-bottom:20px;border-bottom:1px solid #b1b1b1}
 .Blog-webpage .panel-title{margin-bottom:0;text-decoration:none!important}
 .Blog-webpage .panel-title a{text-decoration:none!important;color:#187fc3;font-size:21px;font-weight:600;line-height:24px;padding:0}
@@ -249,7 +249,6 @@ html { font-family: 'Work Sans', sans-serif; }
 .Blog-webpage .para-faq{padding:10px 0 0 0;font-size:16px;color:#636363}
 .Blog-webpage .faq-box-cls{padding-bottom:15px;margin-bottom:15px;border-bottom:1px solid #b1b1b1}
 .Blog-webpage .panel-title a:after{content:"-";float:right;font-size:25px;font-weight:300;position:absolute;right:25px;margin:0}
-
 }
 
 /*==========================================*/
@@ -260,12 +259,12 @@ html { font-family: 'Work Sans', sans-serif; }
 /*==========================================*/
 /* treadingblogs_slider section css*/
 /*==========================================*/
-.treadingblogs_slider .owl-item .item{transform:translate3d(0,0,0);margin-bottom:30px;margin-top:30px;text-align:center;border-radius:16px;color:#fff}
+.treadingblogs_slider .owl-item .item{margin-bottom:20px;margin-top:20px;text-align:center;border-radius:16px;color:#fff}
 .treadingblogs_slider .owl-item .item{-webkit-transition:.3s;-o-transition:.3s;transition:.3s;-webkit-transform:scale(.8);-ms-transform:scale(.8);transform:scale(.8);opacity:1;background-color:#e1dfdf;color:#212121!important}
 .treadingblogs_slider .owl-item.center .item{-webkit-transform:scale(1.15);-ms-transform:scale(1.15);transform:scale(1.15);opacity:1;background-color:#0073ac;color:#fff!important}
 .treadingblogs_slider .owl-dots{display:none}
 .treadingblogs_slider .owl-item img{width:100%;border-radius:16px 16px 0 0}
-.treadingblogs_slider .owl-next,.treadingblogs_slider .owl-prev{position:absolute;top:-30px;height:100%}
+.treadingblogs_slider .owl-next,.treadingblogs_slider .owl-prev{position:absolute;top:0px;height:100%}
 .treadingblogs_slider .owl-prev{left:-12px}
 .treadingblogs_slider .owl-next{right:-12px}
 .treadingblogs_slider .owl-item .item p{text-align:left;font-size:16px;line-height:normal;padding:20px;border-top:2px solid #fff;color:#212121}
@@ -274,4 +273,6 @@ html { font-family: 'Work Sans', sans-serif; }
 @media (max-width:600px){
 .treadingblogs_slider .owl-item.center .item{-webkit-transform:none;-ms-transform:none;margin-top:0;margin-bottom:0;transform:none;opacity:1;background-color:#0073ac;color:#fff!important}
 .treadingblogs_slider .owl-item.center .item img{-webkit-transform:none;-ms-transform:none;transform:none;opacity:1}
+.treadingblogs_slider .owl-item .item{margin-bottom:-5px;margin-top:20px;text-align:center;border-radius:16px;color:#fff}
+.treadingblogs_slider .owl-next,.treadingblogs_slider .owl-prev{position:absolute;top:-10px;height:100%}
 }
